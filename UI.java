@@ -6,15 +6,14 @@ public class UI {
 		
 		int[] arr = {1,2,3,4,5};
 		
-		NaiveSolutionNoDivision naive = new 
-NaiveSolutionNoDivision();
+		NaiveSolutionNoDivision naive = new NaiveSolutionNoDivision();
 		
 		System.out.println(toString(naive.productOfArray(arr)));
 		
 		LinearTimeSolution linear = new LinearTimeSolution();
 		
 		
-System.out.println(toString(linear.productOfArray(arr)));
+		System.out.println(toString(linear.productOfArray(arr)));
 		
 	}
 	
